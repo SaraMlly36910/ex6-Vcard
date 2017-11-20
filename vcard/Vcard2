@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vcard</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat-Bold" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat-Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat-Regular" rel="stylesheet">
+  </head>
+
+  <body>
+  	<header>
+  		<h1>Sara Amiri</h1>
+  		<h2>Apprenante Becode
+  		</h2>
+    </header>
+    
+    <table style="width:70%">
+      
+      <tr>
+        <td><img src="home.png" alt="adress icon" /></td>
+        <td>Rue des Plantes 000 <br> 1030 Bruxelles</td>
+      </tr>
+      <tr>
+        <td><img src="mail.png" alt="mail icon" /></td>
+        <td>sara.molly@hotmail.fr</td>
+      </tr>
+      <tr>
+        <td><img src="phone.png" alt="phone icon" /></td>
+        <td>0400000000</td>
+      </tr>
+    </table>
+
+  </body>
+</html>

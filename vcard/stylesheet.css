@@ -1,0 +1,158 @@
+
+body{
+	/*background-image: url("fond.png");*/
+}
+header{
+	height: 100px;
+    background: #1B0808; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #0e0303 , #5b5151); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #0e0303, #5b5151); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #0e0303, #5b5151); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #0e0303 , #5b5151); /* Standard syntax (must be last) */
+    padding: 2%;
+
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: column;
+     align-items: center;
+
+}
+
+
+
+h1{
+	font-family: 'Montserrat-Bold', sans-serif;
+	color: #5b5151;
+	/*position: absolute;*/
+	/*top: 6%;*/
+	/*left: 35%;*/
+
+	
+}
+h2{
+	color: #5b5151;
+	font-family: 'Montserrat-Regular', sans-serif;
+	/*position: absolute;*/
+	/*top: 13%;*/
+	/*left: 35%;*/
+
+
+}
+img{
+	/*height: 50%;
+	width: 50%;*/
+	/*margin: 24px;*/
+
+}
+
+p{
+	font-family: 'Montserrat-Light', sans-serif;	
+	font-size: 150%;
+
+	color: #0e0303 ;
+}
+
+.profil{
+	width: 16%;
+	height: auto;
+	position: absolute;
+	top:35%;
+	left:32%;
+}
+
+.icon{
+	display: flex;
+    flex-direction: column;
+    position: absolute;
+	left: 25%;
+	top:54%;
+	width: 75%;
+	z-index: 2;
+}
+
+.icon img{
+	height: 5%;
+	width: 5%;
+	margin: 1%;
+	/*position: absolute;
+	top: 35%;
+	left: 15%;*/
+}
+
+.coor{
+	display: flex;
+    flex-direction: column;
+	position: absolute;
+	left: 31%;
+	top: 54%;
+}
+
+.coor p{
+	margin: 5%;
+}
+
+.adress{
+	position: absolute;
+	top: -30%;
+}
+
+.mail{
+	/*position: relative;*/  /*si absolute déregle .adress & .telephone*/
+	top:-15%;
+}
+
+.telephone{
+	position: absolute;
+	top:300%;
+}
+
+.schema{
+	width: 90%;
+}
+
+.schema img{
+	/*height: 18.54%;*/
+	width: 40%;
+	background-color: black;
+	position: absolute;
+	left: 50%;
+	top: 35%;
+	z-index: 3;
+}
+
+footer{
+	display:flex;
+	flex-direction: column;
+	align-items: flex-start;
+	position: absolute;
+	top: 35%;
+	left: 25%;
+}
+
+footer img{
+	height: 50px;
+	width: 50px;
+	/*margin-top: 35%;*/
+}
+
+/*.element{
+	display: flex;
+    flex-direction: row;
+}*/
+
+/*.mail img{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 50%;
+	left: 15%;
+}
+
+.phone img{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 75%;
+	left: 15%;*/
+}
+
